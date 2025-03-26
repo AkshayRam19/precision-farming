@@ -6,7 +6,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("chatbot")
 
 # ✅ Google Gemini API Key
-genai.configure(api_key="AIzaSyAihMtyjV1MA9mI2JOBOz4RxbGaBF3gnS4")
+genai.configure(api_key="..")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 def generate_chatbot_response(user_crop, soil_data, weather_data):
